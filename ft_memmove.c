@@ -12,6 +12,17 @@
 
 #include "libft.h"
 
+/**
+ * If the source and destination overlap, copy the source to a temporary buffer, then copy the
+ * temporary buffer to the destination
+ * 
+ * @param dst This is the destination array where the content is to be copied, type-casted to a
+ * pointer.
+ * @param src The source string.
+ * @param len the number of bytes to copy
+ * 
+ * @return A pointer to the destination string.
+ */
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	size_t			i;

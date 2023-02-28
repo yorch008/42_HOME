@@ -12,6 +12,16 @@
 
 #include "libft.h"
 
+/**
+ * It takes a pointer to a memory location, a character, and a size_t, and fills the memory location
+ * with the character up to the size_t
+ * 
+ * @param str The string to be filled.
+ * @param c the character to fill the memory with
+ * @param n the number of bytes to be filled
+ * 
+ * @return The address of the first byte of the memory area str.
+ */
 void	*ft_memset(void *str, unsigned int c, size_t n)
 {
 	size_t		i;

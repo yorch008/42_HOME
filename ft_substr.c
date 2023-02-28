@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-//Devuelve una substring resevada con malloc, que empiece desde start y longitud maxima de len
+//Devuelve una substring reservada con malloc, que empiece desde start y longitud maxima de len
 
 char *ft_substr(char const *s, unsigned int start, size_t len)
 {

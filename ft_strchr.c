@@ -14,6 +14,14 @@
 
 //Busca un caracter c en el string s de principio a fin
 
+/**
+ * It returns a pointer to the first occurrence of the character c in the string s
+ * 
+ * @param s The string to search.
+ * @param c The character to search for.
+ * 
+ * @return a pointer to the first occurrence of the character c in the string s.
+ */
 char	*ft_strchr(const char *s, int c)
 {
 	int		i;
