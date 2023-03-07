@@ -25,7 +25,8 @@ MY_SOURCES = ft_bzero.c\
 		ft_strjoin.c\
 		ft_substr.c\
 		ft_strtrim.c\
-		ft_split.c
+		ft_split.c\
+		ft_itoa.c
 MY_OBJECTS = $(MY_SOURCES:.c=.o)
 
 CC = gcc
